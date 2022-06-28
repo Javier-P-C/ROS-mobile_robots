@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+ 
+<include file="$(find puzzlebot_gazebo)/launch/puzzlebot_gazebo.launch"/>"
+<node pkg="twist_practice" name="javier_robot_control" type="javier_robot_control.py" output="screen"> 
+</node>
+
+
+
+</launch>
